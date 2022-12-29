@@ -16,7 +16,7 @@ on:
       - "**.json"
 
 jobs:
-  build:
+   build:
     runs-on: ubuntu-latest
     name: 编译 "${{matrix.platform}} ${{matrix.version}}"
     strategy:
