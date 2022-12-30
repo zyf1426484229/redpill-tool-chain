@@ -81,7 +81,7 @@ jobs:
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json
           
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json
-          ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json
+        
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/rpext-index.json
