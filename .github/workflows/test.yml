@@ -24,8 +24,9 @@ jobs:
       matrix:
         include:
           #  两行一组，删除不需要的版本
-          - platform: ds3622xsp
+          - platform: ds918p
             version: 7.1.0-42661
+
     steps:
       - name: 检出项目文件
         uses: actions/checkout@v3
@@ -77,17 +78,15 @@ jobs:
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/jim3ma/synology-igc/master/igc/rpext-index.json
-                   
+         
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json
-          
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json
-        
+          ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json
-          
           
           
           
